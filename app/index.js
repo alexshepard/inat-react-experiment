@@ -1,6 +1,8 @@
-var component = require('./component');
-var app = document.createElement('div');
+import './main.css';
 
-document.body.appendChild(app);
+import React from 'react';
+import ReactDOM from 'react-dom';
 
-app.appendChild(component());
+import App from './components/App.jsx';
+
+ReactDOM.render(<App />, document.getElementById('app'));

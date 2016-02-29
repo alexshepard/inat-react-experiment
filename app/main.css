@@ -1,0 +1,37 @@
+body {
+  background: #def;
+  font-family: sans-serif;
+}
+
+.observations {
+  margin: 0.5em;
+  padding-left: 0;
+}
+
+.observation {
+  display: inline-block;
+  margin: 1em;
+  padding: 0.5em;
+  min-width: 10em;
+  max-width: 10em;
+  min-height: 12em;
+  max-height: 12em;
+  vertical-align: top;
+  border-radius: 0.2em;
+  background-color: #fdfdfd;
+  box-shadow: 0 0 0.03em 0.03em rgba(0, 0, 0, 0.3);
+}
+
+.observation .speciesGuess {
+  display: inline-block;
+  width: 100%;
+  text-align: center;
+  font-size: 10pt;
+  margin-top: 0.5em;
+}
+
+.observation .thumb {
+  height: 10em;
+  width: 10em;
+  background-color: cornsilk;
+}
